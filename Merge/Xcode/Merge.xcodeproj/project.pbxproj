@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892B4CC41986D9340092D00C /* Merge_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B30371A71500C91783 /* Merge_Prefix.pch */; };
+		892B4CC51986D9340092D00C /* Merge.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A72AC010904A2A003AE340 /* Merge.h */; };
+		892B4CC71986D9340092D00C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		892B4CC91986D9340092D00C /* Merge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAB6C09F0587E88C00D4AD2E /* Merge.cpp */; };
+		892B4CCB1986D9340092D00C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		892B4CCD1986D9340092D00C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892B4CC01986D7BD0092D00C /* AudioToolbox.framework */; };
+		892B4CCF1986D9340092D00C /* Merge.r in Rez */ = {isa = PBXBuildFile; fileRef = AAB6C0A00587E88C00D4AD2E /* Merge.r */; };
+		892B4CD91986DA290092D00C /* libXOPSupport64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 892B4CD81986DA290092D00C /* libXOPSupport64.a */; };
+		893D59621C330ED3005CBDA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 893D59601C330ED3005CBDA1 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		892B4CD01986D9340092D00C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		32BAE0B30371A71500C91783 /* Merge_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merge_Prefix.pch; sourceTree = "<group>"; };
+		892B4CC01986D7BD0092D00C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Work/XOPDev/IgorXOPs7/Merge/Xcode/../../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		892B4CD51986D9340092D00C /* Merge-64.xop */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Merge-64.xop"; sourceTree = BUILT_PRODUCTS_DIR; };
+		892B4CD71986D9E80092D00C /* Info64.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info64.plist; sourceTree = SOURCE_ROOT; };
+		892B4CD81986DA290092D00C /* libXOPSupport64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXOPSupport64.a; path = ../../XOPSupport/Xcode/libXOPSupport64.a; sourceTree = SOURCE_ROOT; };
+		893D59601C330ED3005CBDA1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Work/XOPDev/IgorXOPs7/Merge/Xcode/../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		894DD912209D02D700405BAA /* MergeWinCustom.rc */ = {isa = PBXFileReference; lastKnownFileType = text; name = MergeWinCustom.rc; path = ../MergeWinCustom.rc; sourceTree = "<group>"; };
+		894DD913209D02D700405BAA /* Merge.rc */ = {isa = PBXFileReference; lastKnownFileType = text; name = Merge.rc; path = ../Merge.rc; sourceTree = "<group>"; };
+		89A72AC010904A2A003AE340 /* Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Merge.h; path = ../Merge.h; sourceTree = SOURCE_ROOT; };
+		AAB6C09F0587E88C00D4AD2E /* Merge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Merge.cpp; path = ../Merge.cpp; sourceTree = SOURCE_ROOT; };
+		AAB6C0A00587E88C00D4AD2E /* Merge.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = Merge.r; path = ../Merge.r; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		892B4CCA1986D9340092D00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893D59621C330ED3005CBDA1 /* Cocoa.framework in Frameworks */,
+				892B4CCB1986D9340092D00C /* Carbon.framework in Frameworks */,
+				892B4CD91986DA290092D00C /* libXOPSupport64.a in Frameworks */,
+				892B4CCD1986D9340092D00C /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Merge */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = Merge;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				893D59601C330ED3005CBDA1 /* Cocoa.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+				892B4CC01986D7BD0092D00C /* AudioToolbox.framework */,
+				892B4CD81986DA290092D00C /* libXOPSupport64.a */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAB6C0A00587E88C00D4AD2E /* Merge.r */,
+				894DD913209D02D700405BAA /* Merge.rc */,
+				894DD912209D02D700405BAA /* MergeWinCustom.rc */,
+				892B4CD71986D9E80092D00C /* Info64.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32BAE0B30371A71500C91783 /* Merge_Prefix.pch */,
+				89A72AC010904A2A003AE340 /* Merge.h */,
+				AAB6C09F0587E88C00D4AD2E /* Merge.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				892B4CD51986D9340092D00C /* Merge-64.xop */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		892B4CC31986D9340092D00C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892B4CC41986D9340092D00C /* Merge_Prefix.pch in Headers */,
+				892B4CC51986D9340092D00C /* Merge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		892B4CC21986D9340092D00C /* Merge-64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892B4CD11986D9340092D00C /* Build configuration list for PBXNativeTarget "Merge-64" */;
+			buildPhases = (
+				892B4CC31986D9340092D00C /* Headers */,
+				892B4CC61986D9340092D00C /* Resources */,
+				892B4CC81986D9340092D00C /* Sources */,
+				892B4CCA1986D9340092D00C /* Frameworks */,
+				892B4CCE1986D9340092D00C /* Rez */,
+				892B4CD01986D9340092D00C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merge-64";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = Merge;
+			productReference = 892B4CD51986D9340092D00C /* Merge-64.xop */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 891551EC093FB0F00062870E /* Build configuration list for PBXProject "Merge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Merge */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				892B4CC21986D9340092D00C /* Merge-64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		892B4CC61986D9340092D00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892B4CC71986D9340092D00C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		892B4CCE1986D9340092D00C /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892B4CCF1986D9340092D00C /* Merge.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		892B4CC81986D9340092D00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892B4CC91986D9340092D00C /* Merge.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891551ED093FB0F00062870E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-parentheses";
+			};
+			name = Debug;
+		};
+		891551EE093FB0F00062870E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-parentheses";
+			};
+			name = Release;
+		};
+		891551EF093FB0F00062870E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wno-parentheses";
+			};
+			name = Default;
+		};
+		892B4CD21986D9340092D00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Merge_Prefix.pch;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = ../../XOPSupport;
+				INFOPLIST_FILE = Info64.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = ../../XOPSupport/Xcode;
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wavemetrics.xop.Merge-64";
+				PRODUCT_NAME = "Merge-64";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		892B4CD31986D9340092D00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Merge_Prefix.pch;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = ../../XOPSupport;
+				INFOPLIST_FILE = Info64.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = ../../XOPSupport/Xcode;
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wavemetrics.xop.Merge-64";
+				PRODUCT_NAME = "Merge-64";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		892B4CD41986D9340092D00C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXPORTED_SYMBOLS_FILE = ./Exports.exp;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Merge_Prefix.pch;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO = YES;
+				HEADER_SEARCH_PATHS = ../../XOPSupport;
+				INFOPLIST_FILE = Info64.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = ../../XOPSupport/Xcode;
+				LIBRARY_STYLE = Bundle;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "-i ../../XOPSupport";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wavemetrics.xop.Merge-64";
+				PRODUCT_NAME = "Merge-64";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wno-parentheses";
+				WRAPPER_EXTENSION = xop;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891551EC093FB0F00062870E /* Build configuration list for PBXProject "Merge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891551ED093FB0F00062870E /* Debug */,
+				891551EE093FB0F00062870E /* Release */,
+				891551EF093FB0F00062870E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		892B4CD11986D9340092D00C /* Build configuration list for PBXNativeTarget "Merge-64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892B4CD21986D9340092D00C /* Debug */,
+				892B4CD31986D9340092D00C /* Release */,
+				892B4CD41986D9340092D00C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
